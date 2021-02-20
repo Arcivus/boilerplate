@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+select,
+button,
+textarea
+{
+  outline: none;
+  vertical-align:middle;
+  white-space:normal;
+  line-height:1;
+  /* Browsers have different default form fonts */
+  font-size:16px;
+  font-style: normal;
+  font-weight: inherit;
+  font-family: inherit;
+}
+
+input {
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+button {
+  border: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button, select {
+  text-transform: none;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus
+{
+  outline:0;
+}
+
+a:hover, a:visited, a:active, a:link{
+  text-decoration: none;
+  color: inherit;
+}
+
+label {
+  margin-bottom: 5px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+input[type=checkbox], input[type=radio] {
+  padding: 0;
+}
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

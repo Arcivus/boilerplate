@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowUnusedLabels": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "outDir": "dist/ts",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "skipLibCheck": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "target": "ES5"
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "deprecated"
+  ]
+}
